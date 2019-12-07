@@ -17,8 +17,9 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix
-  array = [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
-  array.sort
+  array = []
+  array.push([ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort])
+  array
   # Build an array that contains (or, "nests") the residents of The Ennet House
   # and the Enfield Tennis Academy as provided by the constants
 end
